@@ -1,0 +1,110 @@
+#container_pertama p {
+  width: 50%;
+  text-align: justify;
+}
+
+.container_content {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  background-color: #eee;
+  border: solid #333 2px;
+  padding: 10px;
+}
+
+#container_jenisKelamin select {
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#container_kalkulator {
+  width: 50%;
+  padding: 10px;
+}
+
+#container_beratBadan .container_input {
+  display: flex;
+}
+
+.container_input div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #333 1px;
+  padding: 1px;
+}
+
+.parent_input {
+  width: 100%;
+}
+
+.input {
+  padding: 6px;
+  border: solid #333 1px;
+  width: 100%;
+}
+
+.container_button {
+  margin-top: 30px;
+}
+
+.container_button button:first-child {
+  padding: 5px;
+  background-color: green;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.container_button button:nth-child(2) {
+  padding: 5px;
+  background-color: red;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+#container_result {
+  display: none;
+  width: 50%;
+  padding: 30px;
+}
+
+#container_result .card_result {
+  background-color: wheat;
+  padding: 10px;
+  text-align: center;
+}
+
+.card_result p {
+  font-size: 24px;
+}
+
+.card_result h2 {
+  font-size: 34px;
+}
+
+.card_result button {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  outline: none;
+}
+
+#card_text #card_button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#card_text #card_button button {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  outline: none;
+}
+
+.card_result ul {
+  list-style-type: none;
+}
